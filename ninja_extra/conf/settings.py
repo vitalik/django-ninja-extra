@@ -15,7 +15,7 @@ class UserDefinedSettingsMapper:
 
 NinjaExtra_SETTINGS_DEFAULTS = dict(
     INJECTOR_MODULES=[],
-    PAGINATION_CLASS="ninja_extra.pagination.LimitOffsetPagination",
+    PAGINATION_CLASS="ninja_extra.pagination.PageNumberPaginationExtra",
     THROTTLE_CLASSES=[
         "ninja_extra.throttling.AnonRateThrottle",
         "ninja_extra.throttling.UserRateThrottle",
